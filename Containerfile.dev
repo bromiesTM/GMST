@@ -1,0 +1,8 @@
+FROM node:20-buster
+
+ENV NODE_ENV=development
+
+WORKDIR /app
+
+# await command by podman exec
+CMD ["sleep", "infinity"]
